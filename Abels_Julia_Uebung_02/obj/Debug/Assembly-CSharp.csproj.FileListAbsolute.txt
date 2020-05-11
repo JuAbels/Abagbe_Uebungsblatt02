@@ -1,2 +1,0 @@
-/Users/juliaabels/Workspace/Uni/SS20/Serious Games/Uebung/Uebung_02/Uebung02Template/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-/Users/juliaabels/Workspace/Uni/SS20/Serious Games/Uebung/Uebung_02/Uebung02Template/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
