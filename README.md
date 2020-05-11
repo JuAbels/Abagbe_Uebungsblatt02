@@ -2,7 +2,7 @@
 
 ## Autoren
 
-Alexander Lindner
-Marcel Zickler
-Peter Jiang
-Julia Nadine Abels
+* Alexander Lindner
+* Marcel Zickler
+* Peter Jiang
+* Julia Nadine Abels
