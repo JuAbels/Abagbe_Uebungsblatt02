@@ -46,11 +46,11 @@ public class Projectile : MonoBehaviour
                 //if a part of a prefab instance then get the instance handle
                 Object prefabInstance = PrefabUtility.GetPrefabInstanceHandle(transform);
                 //destroy the handle
-                DestroyImmediate(prefabInstance);
+                Destroy(prefabInstance);
             }
 
             //the usual destroy immediate to clean up scene objects
-            DestroyImmediate(transform.gameObject, true);
+            Destroy(transform.gameObject);
         }
     }
 
