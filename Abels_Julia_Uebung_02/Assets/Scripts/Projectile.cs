@@ -41,15 +41,6 @@ public class Projectile : MonoBehaviour
 
         if (Time.time - this._liveTime > this._time)
         {
-            if (PrefabUtility.IsPartOfPrefabInstance(transform))
-            {
-                //if a part of a prefab instance then get the instance handle
-                Object prefabInstance = PrefabUtility.GetPrefabInstanceHandle(transform);
-                //destroy the handle
-                Destroy(prefabInstance);
-            }
-
-            //the usual destroy immediate to clean up scene objects
             Destroy(transform.gameObject);
         }
     }
